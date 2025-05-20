@@ -1,0 +1,8 @@
+path: D:\Projects\ML\Pavement Marking Quality Assessment\datasets\split_for_labeling  # Root path to your dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 2  # Number of classes
+names: ['good', 'damaged']
