@@ -15,4 +15,5 @@ geojson==3.0.1
 streamlit==1.28.0
 ultralytics==8.0.196
 folium==0.14.0
-
+streamlit-folium
+plotly
