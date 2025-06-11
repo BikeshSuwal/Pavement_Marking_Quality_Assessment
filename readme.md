@@ -3,6 +3,9 @@
 This project provides a complete computer vision pipeline to **automatically assess the quality of dashed lane markings** using street-level imagery. The system combines **object detection (YOLOv8)**, **segmentation (SAM)**, and **classification (ResNet18)** to identify and evaluate road markings, and visualise their condition on an interactive map.
 
 ---
+[![Watch Demo Video](https://github.com/user-attachments/assets/cd42bba7-6975-4e9d-9675-f449951e3a26)](https://github.com/user-attachments/assets/cd42bba7-6975-4e9d-9675-f449951e3a26)
+
+---
 
 ## 📌 Objective
 
@@ -88,6 +91,8 @@ Run YOLOv8 inference to detect dashed lane markings:
 ```bash
 python Run_YOLOv8_Inference.py
 ```
+
+
 
 ### 4. ✂️ Crop & Classify Markings
 
